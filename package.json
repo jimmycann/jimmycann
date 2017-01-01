@@ -1,5 +1,5 @@
 {
-  "name": "jimmy-clone",
+  "name": "jimmycann",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://yjimk.github.io/jimmy-clone",
@@ -66,7 +66,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "deploy": "npm run build&&gh-pages -d build"
+    "deploy": "yarn run build&&gh-pages -d build"
   },
   "jest": {
     "moduleFileExtensions": [
